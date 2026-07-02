@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Waghmare - Digital Business Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-pattern">
+        <!-- SVG for the background arches -->
+        <svg class="arch arch-top" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 20 100 A 30 30 0 0 1 80 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+            <path d="M 10 100 A 40 40 0 0 1 90 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+            <path d="M 0 100 A 50 50 0 0 1 100 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+        </svg>
+        <svg class="arch arch-bottom" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 20 100 A 30 30 0 0 1 80 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+            <path d="M 10 100 A 40 40 0 0 1 90 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+            <path d="M 0 100 A 50 50 0 0 1 100 100" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.5" />
+        </svg>
+    </div>
+
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-image-container">
+                <img src="./aniket.jpg" alt="Aniket Waghmare" id="profile-img">
+            </div>
+            <h1 class="name">Aniket Waghmare</h1>
+            <p class="title">Founder of Acuron Ai Solutions Pvt. Ltd.</p>
+        </header>
+
+        <main class="links-section">
+            <a href="tel:+917350791816" class="btn-link">
+                Call me
+            </a>
+            <a href="mailto:contact@acuronai.com" class="btn-link">
+                contact@acuronai.com
+            </a>
+            <a href="https://www.acuronai.com" target="_blank" class="btn-link">
+                Visit our website
+            </a>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aniketwaghmare07/" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/917350791816" target="_blank" class="social-icon"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/aniket_.waghmare/" target="_blank" class="social-icon"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="address-block">
+                <p class="address-line-1"><a href="#"><u>716, KP Square, Chinchwad</u></a></p>
+                <p class="address-line-2">Pune, Maharastra, 411019</p>
+                <p class="address-line-3">India</p>
+            </div>
+
+            <a href="tel:+917350791816" class="btn-link btn-phone">
+                Phone
+            </a>
+        </main>
+    </div>
+
+    <div class="sticky-bottom">
+        <button id="add-contact-btn" class="btn-link btn-primary">
+            <i class="fa-regular fa-user"></i> Add to contacts
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
