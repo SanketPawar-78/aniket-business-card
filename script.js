@@ -20,14 +20,9 @@ END:VCARD`;
         const base64Vcard = window.btoa(unescape(encodeURIComponent(vcardData)));
         const dataUrl = 'data:text/x-vcard;base64,' + base64Vcard;
         
-        // Create a temporary link element to trigger the download
-        const link = document.createElement('a');
-        link.href = dataUrl;
-        link.download = 'Aniket_Waghmare.vcf';
-        
-        // Append, click, and cleanup
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        // Navigate directly to the vCard data. 
+        // On many modern mobile browsers (especially iOS Safari), this skips the background download
+        // and immediately pops up the native "Add to Contacts" screen.
+        window.location.href = dataUrl;
     });
 });
