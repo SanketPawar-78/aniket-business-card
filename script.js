@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 VERSION:3.0
 FN:Aniket Waghmare
 ORG:Acuron Ai Solutions Pvt. Ltd.
-TITLE:Co-Founder & CEO
+TITLE:Co-Founder & COO
 TEL;TYPE=WORK,VOICE:+917350791816
 EMAIL:contact@acuronai.com
 ADR;TYPE=WORK:;;Office No. 716, 7th Floor, KP Square, Telco Road;Chinchwad, Pune;Maharastra;411019;India
